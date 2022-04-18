@@ -1,0 +1,16 @@
+PRINTF
+
+NAME
+		printf - formats and prints string
+
+SYNOPSIS
+		printf(string, [ARGUMENTS])
+
+DESCRIPTION
+		prints ARGUMENT(s) according to format given in the string
+
+		FORMAT Controls:
+			%c: character
+			%s: string
+			%d: double
+			%i: integer

@@ -74,4 +74,3 @@ int printint(char *format, va_list pa)
 
 	return (numero);
 }
-
