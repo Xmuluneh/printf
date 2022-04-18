@@ -28,11 +28,13 @@ int printocta(char *format, va_list pa)
 		num = num / 8;
 	}
 	for (i = 0; i < i2 && octa[i] == '0'; i++)
+	{
 		for (; i < i2; i++)
 		{
 			_putchar(octa[i]);
 			contame++;
 		}
-		free(octa);
-		return (contame);
+	}
+	free(octa);
+	return (contame);
 }
